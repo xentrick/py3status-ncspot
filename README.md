@@ -41,6 +41,10 @@ I also like to bind `ncspot` in i3 using the following configuration changes:
   bindsym $mod+p exec dbus-send --print-reply --dest=org.mpris.MediaPlayer2.ncspot /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause  > /dev/null
   bindsym $mod+o exec dbus-send --print-reply --dest=org.mpris.MediaPlayer2.ncspot /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Next > /dev/null
   bindsym $mod+i exec dbus-send --print-reply --dest=org.mpris.MediaPlayer2.ncspot /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Previous > /dev/null
+  bindsym $mod+O exec dbus-send --print-reply --dest=org.mpris.MediaPlayer2.ncspot /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Forward > /dev/null
+  bindsym $mod+I exec dbus-send --print-reply --dest=org.mpris.MediaPlayer2.ncspot /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Rewind > /dev/null
 ```
+
+__Note: The Forward/Rewind capabilities are something I added to `ncspot` in my fork. See https://github.com/xentrick/ncspot__
 
 
