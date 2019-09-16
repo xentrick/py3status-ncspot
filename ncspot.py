@@ -44,7 +44,8 @@ ncspot {
 }
 ```
 
-@author Pierre Guilbert, Jimmy Garpehäll, sondrele, Andrwe
+@update Forked and modified to work with ncspot by Nick Mavis
+@original_author Pierre Guilbert, Jimmy Garpehäll, sondrele, Andrwe
 
 SAMPLE OUTPUT
 {'color': '#00FF00', 'full_text': 'Rick Astley : Never Gonna Give You Up'}
